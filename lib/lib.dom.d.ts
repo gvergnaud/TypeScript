@@ -18624,6 +18624,7 @@ interface Window extends EventTarget, AnimationFrameProvider, GlobalEventHandler
     readonly scrollbars: BarProp;
     readonly self: Window & typeof globalThis;
     readonly speechSynthesis: SpeechSynthesis;
+    /** @deprecated */
     status: string;
     readonly statusbar: BarProp;
     readonly styleMedia: StyleMedia;
